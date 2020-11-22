@@ -1,0 +1,126 @@
+.bg{
+    background-image: url("background.png");
+}
+.divshio{
+    padding : 0px;
+    margin: 0px auto;
+    width : 200px;
+    height : 100px;
+    z-index: 100;
+}
+.profile{
+    float: right;
+    position : fixed;
+    right: 30px;
+    bottom : 20px;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    /* padding : 30px 0px; */
+}
+.overlayshio{
+    height: 400px;
+    width : auto;
+    padding : 50 250px;
+    align-items: center;
+    /* background-image: url("https://scontent.fbdo9-1.fna.fbcdn.net/v/t1.0-9/125483113_2456435594660762_5550577405383683925_o.jpg?_nc_cat=101&ccb=2&_nc_sid=825194&_nc_eui2=AeGYod_sLHjLKi_suDgAnMqRJMtSmY-D73gky1KZj4PveB3Rsvja1g6k9BnoE-dD1_blq2aWsB3IkwPTf1zggkRN&_nc_ohc=nhPsLYAR1iYAX-sQgc0&_nc_ht=scontent.fbdo9-1.fna&oh=541175a2cd99e6de4746e0a9f84837b9&oe=5FD96A8F"); */
+}
+.slide{
+    display : none;
+}
+.slide:first-child{
+    display:block;
+}
+.inputform{
+    float : left;
+    border : 1px solid blue;
+}
+.hasilform{
+    float : right;
+    border : 1px solid red;
+}
+.crewmate{
+    margin-top: 70;
+}
+
+.crewmateoverlay{
+    height: 300px;
+    width: auto;
+    padding: 20 100px;
+    /* background-color: red; */
+}
+@keyframes karakter{
+    0% {left : 0px; top : 0; transform: rotate(0deg);}
+    25% {left : 25%; top : 25%; transform: rotate(90deg); }
+    50% {left : 50%; top : 50%; transform: rotate(180deg); }
+    75% {left : 75%; top : 75%; transform: rotate(270deg); }
+    100% {left : 100%; top : 100%; transform: rotate(360deg);}
+}
+.animasikarakter{
+    position: fixed;
+    animation-name: karakter;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.gambarcrewmatebiru{
+    padding : 20px;
+    border-radius: 10%;
+    border : 10px double blue;
+}
+.gambarcrewmateijo{
+    padding : 20px;
+    border-radius: 10%;
+    border : 10px double green;
+}
+.gambarcrewmateorange{
+    padding : 20px;
+    border-radius: 10%;
+    border : 10px double #ff6600;
+}
+.gambarcrewmatepink{
+    padding : 20px;
+    border-radius: 10%;
+    border : 10px double violet;
+}
+.gambarcrewmatebiru:hover{
+    animation : 1s ease-in-out;
+    /* border : 1px solid blue; */
+    background-color: blue;
+    box-shadow: 0px 0px 50px blue;
+    transition: ease 0.5s;
+}
+.gambarcrewmateijo:hover{
+    animation : 1s ease-in-out;
+    /* border : 1px solid blue; */
+    background-color: green;
+    box-shadow: 0px 0px 50px green;
+    transition: ease 0.5s;
+}
+.gambarcrewmateorange:hover{
+    animation : 1s ease-in-out;
+    /* border : 1px solid blue; */
+    background-color: #ff6600;
+    box-shadow: 0px 0px 50px #ff6600;
+    transition: ease 0.5s;
+}
+.gambarcrewmatepink:hover{
+    animation : 1s ease-in-out;
+    /* border : 1px solid blue; */
+    background-color: violet;
+    box-shadow: 0px 0px 50px violet;
+    transition: ease 0.5s;
+}
+.bungkusgambarcrew{
+
+}
+
+.quit{
+    float: right;
+    position : fixed;
+    right: 1px;
+    bottom : 1px;
+    height: 10;
+    width: 10;
+}
